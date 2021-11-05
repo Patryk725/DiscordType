@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: 'Source Sans Pro', sans-serif;
+    --dark-bg: #202225;
+    --medium-bg: #2F3136;
+    --light-bg: #36393F;
+    --white-text: #F1F1F2;
+    --logo-text: #72767D;
+    --hovered: #DCDDDE;
+    --default-icon: #B9BBBE;
+}
