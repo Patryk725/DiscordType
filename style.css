@@ -74,3 +74,49 @@
     margin: 2em 1em;
     text-align: center;
 }
+
+.box{
+    width: 100%;
+    background-color: var(--light-bg);
+    color: var(--white-text);
+}
+
+.box .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .option{
+    max-width: 50em;
+    margin: 2em;
+    padding: 2em;
+    border: .2em solid var(--fill-color);
+    border-radius: 10px;
+    display: grid;
+    grid-template: 1fr 2fr / 1fr 1fr;
+}
+
+.box .img{
+    width: 20em;
+    height: 10em;
+    grid-row: 1/3;
+    border-radius: 10px;
+}
+
+.box .img1{
+    background: url(florian-olivo-Mf23RF8xArY-unsplash.jpg);
+    background-size: cover;
+}
+
+.box .img2{
+    background: url(annie-spratt-dWYU3i-mqEo-unsplash.jpg);
+    background-size: cover;
+}
+
+.box .img3{
+    background: url(clay-banks-twq9tSU3ySw-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
