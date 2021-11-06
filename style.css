@@ -39,8 +39,11 @@
 .topbar .logo{
     user-select: none;
     color: var(--white-text);
-    font-size: 2em;
+    font-size: 1.5em;
     margin-left: .2em;
+    background-color: var(--fill-color);
+    padding: .2em;
+    border-radius: 1em;
 }
 
 .navbar ul{
